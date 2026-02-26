@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.genealogie-ia.com/sitemap.xml
+
+# Bloquer les dossiers non-publics
+Disallow: /api/
+Disallow: /admin/

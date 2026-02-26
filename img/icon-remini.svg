@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="12" fill="#FAF7F2"/>
+  <rect x="1" y="1" width="78" height="78" rx="11" stroke="#D5CBBA" stroke-width="1"/>
+  <!-- Photo floue à gauche -->
+  <rect x="10" y="20" width="24" height="30" rx="2" fill="#E6DFD3" stroke="#D5CBBA" stroke-width="1"/>
+  <circle cx="22" cy="30" r="5" fill="#D5CBBA"/>
+  <path d="M14 44c0-4 3-7 8-7s8 3 8 7" fill="#D5CBBA"/>
+  <!-- Flèche transformation -->
+  <path d="M38 35l6 0" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M42 32l3 3-3 3" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Photo nette à droite -->
+  <rect x="48" y="20" width="24" height="30" rx="2" fill="#F3EFE6" stroke="#A67C52" stroke-width="1.5"/>
+  <circle cx="60" cy="30" r="5" fill="#A67C52" opacity=".35"/>
+  <path d="M52 44c0-4 3-7 8-7s8 3 8 7" fill="#A67C52" opacity=".3"/>
+  <!-- Étincelles autour photo nette -->
+  <path d="M66 18l1-3 1 3 3 1-3 1-1 3-1-3-3-1z" fill="#D4AF37" opacity=".7"/>
+  <path d="M72 28l.7-2 .7 2 2 .7-2 .7-.7 2-.7-2-2-.7z" fill="#D4AF37" opacity=".5"/>
+  <!-- Badge -->
+  <circle cx="62" cy="60" r="10" fill="#D4AF37"/>
+  <text x="62" y="64" text-anchor="middle" fill="#1C1C1C" font-family="Georgia,serif" font-size="8" font-weight="700">AI</text>
+</svg>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Généalogie &amp; IA | Archives &amp; IA</title>
+  <meta name="description" content="Comparatifs VS des meilleurs outils d'IA pour la généalogie : HTR, OCR, restauration photo, bases de données. Trouvez l'outil idéal pour vos archives.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.genealogie-ia.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Généalogie &amp; IA">
+  <meta property="og:description" content="Comparatifs VS des meilleurs outils d'IA pour la généalogie : HTR, OCR, restauration photo, bases de données.">
+  <meta property="og:url" content="https://www.genealogie-ia.com/">
+  <meta property="og:image" content="https://www.genealogie-ia.com/img/og-home.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Généalogie &amp; IA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Généalogie &amp; IA">
+  <meta name="twitter:description" content="Comparatifs VS des meilleurs outils d'IA pour la généalogie.">
+  <meta name="twitter:image" content="https://www.genealogie-ia.com/img/og-home.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD : WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Généalogie & IA",
+    "url": "https://www.genealogie-ia.com/",
+    "description": "Comparatifs VS des meilleurs outils d'intelligence artificielle pour la généalogie et la préservation d'archives familiales.",
+    "inLanguage": "fr",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.genealogie-ia.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD : ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Comparatifs IA Généalogie",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "MyHeritage Photo Enhancer vs Remini",
+        "url": "https://www.genealogie-ia.com/vs/myheritage-vs-remini.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ancestry vs MyHeritage (France)",
+        "url": "https://www.genealogie-ia.com/vs/ancestry-vs-myheritage.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Transkribus vs Google Cloud Vision",
+        "url": "https://www.genealogie-ia.com/vs/transkribus-vs-vision.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "FamilySearch vs Geneanet — Indexation IA",
+        "url": "https://www.genealogie-ia.com/vs/familysearch-vs-geneanet.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD : FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qu'est-ce que la reconnaissance HTR en généalogie ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La HTR (Handwritten Text Recognition) est une technologie d'IA qui déchiffre automatiquement les écritures manuscrites anciennes, comme celles des registres paroissiaux, actes notariés ou correspondances. Contrairement à l'OCR classique (texte imprimé), la HTR est spécialement entraînée pour les graphies historiques."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "L'IA peut-elle restaurer de vieilles photos de famille ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Des outils comme MyHeritage Photo Enhancer ou Remini utilisent l'IA pour améliorer la netteté, réduire le bruit, coloriser des photos noir et blanc, et même animer des portraits anciens. Les résultats varient selon la qualité de l'image d'origine."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel site généalogique est le meilleur pour la France ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour la France, MyHeritage et Ancestry offrent tous deux de vastes bases de données. MyHeritage propose une interface entièrement traduite en français et des collections spécifiques à la France, tandis qu'Ancestry dispose du plus grand nombre de documents à l'échelle mondiale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Les comparatifs VS sont-ils indépendants ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Nos comparatifs sont réalisés de façon indépendante, selon une méthodologie transparente basée sur des critères objectifs : précision, facilité d'utilisation, prix, support des documents français, et retours de la communauté généalogique."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- RGPD : Google Consent Mode v2 (commenté — activer avec votre CMP) -->
+  <!--
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'wait_for_update': 500
+    });
+  </script>
+  -->
+
+  <!-- Google AdSense (commenté — remplacer par votre publisher ID) -->
+  <!--
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+  -->
+</head>
+<body>
+
+  <!-- Skip link (accessibilité) -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="/" class="header__brand" aria-label="Accueil — Généalogie & IA">
+        <span class="header__logo-icon" aria-hidden="true">&#x1F4DC;</span>
+        <div>
+          <span class="header__title">Généalogie &amp; IA</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="/vs/myheritage-vs-remini.html" class="nav__link">MyHeritage vs Remini</a></li>
+          <li><a href="/vs/ancestry-vs-myheritage.html" class="nav__link">Ancestry vs MyHeritage</a></li>
+          <li><a href="/vs/transkribus-vs-vision.html" class="nav__link">Transkribus vs Vision</a></li>
+          <li><a href="/vs/familysearch-vs-geneanet.html" class="nav__link">FamilySearch vs Geneanet</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Menu mobile">
+      <ul class="mobile-menu__list">
+        <li><a href="/vs/myheritage-vs-remini.html" class="mobile-menu__link">MyHeritage vs Remini</a></li>
+        <li><a href="/vs/ancestry-vs-myheritage.html" class="mobile-menu__link">Ancestry vs MyHeritage</a></li>
+        <li><a href="/vs/transkribus-vs-vision.html" class="mobile-menu__link">Transkribus vs Vision</a></li>
+        <li><a href="/vs/familysearch-vs-geneanet.html" class="mobile-menu__link">FamilySearch vs Geneanet</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__brand">
+          <span class="hero__brand-icon" aria-hidden="true">&#x1F4DC;</span>
+          <div>
+            <span class="hero__brand-name">Généalogie &amp; IA</span>
+          </div>
+        </div>
+        <p class="hero__subtitle">Comparatifs «&nbsp;VS&nbsp;» pour déchiffrer et préserver vos archives familiales. Transcription manuscrite, restauration photo, bases de données&nbsp;: découvrez quel outil d'intelligence artificielle correspond le mieux à vos recherches généalogiques.</p>
+      </div>
+    </section>
+
+    <!-- ===== COMPARATIFS VEDETTES ===== -->
+    <section class="section section--alt" id="comparatifs">
+      <div class="container">
+        <div class="section__header">
+          <h2>Nos comparatifs «&nbsp;VS&nbsp;»</h2>
+          <p>Face-à-face détaillés entre les meilleurs outils d'IA pour la généalogie</p>
+        </div>
+
+        <div class="comparatifs-grid">
+
+          <!-- Carte 1 : MyHeritage vs Remini -->
+          <a href="/vs/myheritage-vs-remini.html" class="card">
+            <div class="card__body">
+              <span class="card__category">Photo IA</span>
+              <div class="card__vs-block">
+                <span class="card__tool-name">MyHeritage Enhancer</span>
+                <span class="card__vs" aria-label="versus">VS</span>
+                <span class="card__tool-name">Remini</span>
+              </div>
+              <p class="card__desc">Restauration, amélioration et colorisation de photos anciennes&nbsp;: quel outil d'IA pour vos portraits de famille&nbsp;?</p>
+              <span class="card__cta">Voir le comparatif <span class="card__arrow" aria-hidden="true">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Carte 2 : Ancestry vs MyHeritage -->
+          <a href="/vs/ancestry-vs-myheritage.html" class="card">
+            <div class="card__body">
+              <span class="card__category">Plateformes généalogie</span>
+              <div class="card__vs-block">
+                <span class="card__tool-name">Ancestry</span>
+                <span class="card__vs" aria-label="versus">VS</span>
+                <span class="card__tool-name">MyHeritage</span>
+              </div>
+              <p class="card__desc">Quelle plateforme généalogique choisir pour la France&nbsp;? Bases de données, ADN, arbres en ligne et outils IA intégrés.</p>
+              <span class="card__cta">Voir le comparatif <span class="card__arrow" aria-hidden="true">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Carte 3 : Transkribus vs Vision -->
+          <a href="/vs/transkribus-vs-vision.html" class="card">
+            <div class="card__body">
+              <span class="card__category">HTR / OCR</span>
+              <div class="card__vs-block">
+                <span class="card__tool-name">Transkribus</span>
+                <span class="card__vs" aria-label="versus">VS</span>
+                <span class="card__tool-name">Google Cloud Vision</span>
+              </div>
+              <p class="card__desc">HTR spécialisé manuscrit ancien contre OCR généraliste&nbsp;: lequel déchiffre le mieux vos registres paroissiaux&nbsp;?</p>
+              <span class="card__cta">Voir le comparatif <span class="card__arrow" aria-hidden="true">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Carte 4 : FamilySearch vs Geneanet -->
+          <a href="/vs/familysearch-vs-geneanet.html" class="card">
+            <div class="card__body">
+              <span class="card__category">Indexation IA</span>
+              <div class="card__vs-block">
+                <span class="card__tool-name">FamilySearch</span>
+                <span class="card__vs" aria-label="versus">VS</span>
+                <span class="card__tool-name">Geneanet</span>
+              </div>
+              <p class="card__desc">Indexation automatique par IA, recherche intelligente et archives gratuites&nbsp;: quel moteur pour vos recherches françaises&nbsp;?</p>
+              <span class="card__cta">Voir le comparatif <span class="card__arrow" aria-hidden="true">&rarr;</span></span>
+            </div>
+          </a>
+
+        </div><!-- /comparatifs-grid -->
+      </div>
+    </section>
+
+    <!-- Ornement -->
+    <div class="container">
+      <div class="ornament"><span class="ornament-icon" aria-hidden="true">&#x2766;</span></div>
+    </div>
+
+    <!-- ===== POURQUOI CE SITE ===== -->
+    <section class="section" id="pourquoi">
+      <div class="container">
+        <div class="section__header section__header--plain">
+          <h2>Chaque archive raconte une vie oubliée</h2>
+        </div>
+
+        <div class="editorial">
+          <p>Il y a dans un grenier, quelque part en France, une boîte en carton qui attend. Dedans, une photo jaunie d'un homme en uniforme dont personne ne connaît plus le prénom. Un acte de naissance rédigé à la plume, dans une écriture que plus personne ne sait lire. Une lettre pliée en quatre, envoyée d'un village qui a peut-être changé de nom depuis.</p>
+
+          <p>C'est pour ces moments-là que la <strong>généalogie assistée par intelligence artificielle</strong> existe. Non pas pour remplacer la patience du chercheur qui tourne les pages des <strong>registres paroissiaux</strong>, mais pour lui tendre la main quand l'encre a pâli, quand la graphie d'un curé du XVIII<sup>e</sup> siècle résiste à toute lecture, quand une <strong>photo de famille ancienne</strong> est trop abîmée pour distinguer les visages.</p>
+
+          <p>La <strong>reconnaissance d'écriture manuscrite</strong> (HTR) permet aujourd'hui de <strong>déchiffrer des actes notariés</strong>, des <strong>registres d'état civil</strong> et des correspondances que l'on croyait illisibles. La <strong>restauration photo par IA</strong> redonne un visage net à un arrière-grand-père dont on ne possède qu'un portrait flou. Les <strong>bases de données généalogiques</strong> croisent des milliards d'archives pour retrouver la trace d'un ancêtre émigré, d'un soldat disparu, d'une branche familiale perdue.</p>
+
+          <p>Mais face à la multitude d'outils &mdash; <strong>Transkribus</strong>, <strong>Google Cloud Vision</strong>, <strong>MyHeritage</strong>, <strong>Ancestry</strong>, <strong>Remini</strong> &mdash; comment choisir&nbsp;? Lequel saura lire cette écriture cursive ancienne&nbsp;? Lequel restaurera cette photographie sans la dénaturer&nbsp;? Lequel possède les <strong>archives françaises</strong> dont vous avez besoin&nbsp;?</p>
+
+          <p>C'est la raison d'être de ce site. Pas un catalogue froid de fonctionnalités, mais des <strong>comparatifs honnêtes</strong>, testés sur de vrais documents &mdash; des <strong>actes de baptême</strong> bretons du XVII<sup>e</sup>, des <strong>photos de mariage</strong> des années 1920, des <strong>recensements</strong> d'un village du Cantal. Parce que derrière chaque recherche généalogique, il y a quelqu'un qui veut simplement savoir d'où il vient. Et cette quête-là mérite les meilleurs outils.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ornement -->
+    <div class="container">
+      <div class="section-ornament" aria-hidden="true">&#x2726; &bull; &#x2726; &bull; &#x2726;</div>
+    </div>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__header">
+          <h2>Questions fréquentes</h2>
+          <p>Tout savoir sur l'IA appliquée à la généalogie</p>
+        </div>
+
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Qu'est-ce que la reconnaissance HTR en généalogie&nbsp;?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <div class="faq-item__answer-inner">
+                <p>La HTR (<em>Handwritten Text Recognition</em>) est une technologie d'IA qui déchiffre automatiquement les écritures manuscrites anciennes, comme celles des registres paroissiaux, actes notariés ou correspondances. Contrairement à l'OCR classique (conçu pour le texte imprimé), la HTR est spécialement entraînée pour les graphies historiques et les variations d'écriture d'époque.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>L'IA peut-elle restaurer de vieilles photos de famille&nbsp;?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <div class="faq-item__answer-inner">
+                <p>Oui. Des outils comme MyHeritage Photo Enhancer ou Remini utilisent l'IA pour améliorer la netteté, réduire le bruit, coloriser des photos noir et blanc, et même animer des portraits anciens. Les résultats varient selon la qualité de l'image d'origine, mais les progrès récents sont remarquables.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Quel site généalogique est le meilleur pour la France&nbsp;?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <div class="faq-item__answer-inner">
+                <p>Pour la France, MyHeritage et Ancestry offrent tous deux de vastes bases de données. MyHeritage propose une interface entièrement traduite en français et des collections spécifiques à la France, tandis qu'Ancestry dispose du plus grand nombre de documents à l'échelle mondiale. Notre <a href="/vs/ancestry-vs-myheritage.html">comparatif détaillé</a> vous aide à choisir.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Les comparatifs VS sont-ils indépendants&nbsp;?</span>
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <div class="faq-item__answer-inner">
+                <p>Oui. Nos comparatifs sont réalisés de façon indépendante, selon une méthodologie transparente basée sur des critères objectifs&nbsp;: précision, facilité d'utilisation, prix, support des documents français, et retours de la communauté généalogique.</p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /faq-list -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand-title">&#x1F4DC; Généalogie &amp; IA</p>
+          <p class="footer__desc">Comparatifs indépendants des meilleurs outils d'intelligence artificielle pour la généalogie. Déchiffrez vos archives, restaurez vos photos, explorez vos origines.</p>
+        </div>
+        <div>
+          <p class="footer__heading">Comparatifs</p>
+          <ul class="footer__list">
+            <li><a href="/vs/myheritage-vs-remini.html">MyHeritage vs Remini</a></li>
+            <li><a href="/vs/ancestry-vs-myheritage.html">Ancestry vs MyHeritage</a></li>
+            <li><a href="/vs/transkribus-vs-vision.html">Transkribus vs Vision</a></li>
+            <li><a href="/vs/familysearch-vs-geneanet.html">FamilySearch vs Geneanet</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Légal</p>
+          <ul class="footer__list">
+            <li><a href="/legal/mentions-legales.html">Mentions légales</a></li>
+            <li><a href="/legal/confidentialite.html">Politique de confidentialité</a></li>
+            <li><a href="/legal/cgu.html">CGU</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Généalogie &amp; IA. Tous droits réservés.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Consent Banner -->
+  <div id="consent-banner" class="consent-banner" role="dialog" aria-label="Gestion des cookies" aria-modal="false">
+    <div class="consent-inner">
+      <h2>Nous respectons votre vie privée</h2>
+      <p>Nous utilisons des cookies pour analyser le trafic et améliorer votre expérience. Vous pouvez accepter, refuser ou personnaliser vos choix.</p>
+
+      <div id="consent-categories" class="consent-categories">
+        <label class="consent-category">
+          <input type="checkbox" checked disabled>
+          <span><strong>Essentiels</strong> (toujours actifs)</span>
+        </label>
+        <label class="consent-category">
+          <input type="checkbox" id="consent-analytics" checked>
+          <span><strong>Analytics</strong> — Mesure d'audience anonyme</span>
+        </label>
+        <label class="consent-category">
+          <input type="checkbox" id="consent-marketing" checked>
+          <span><strong>Marketing</strong> — Publicités personnalisées</span>
+        </label>
+      </div>
+
+      <div class="consent-actions">
+        <button type="button" id="consent-accept-all" class="consent-btn consent-btn--accept">Accepter tout</button>
+        <button type="button" id="consent-customize" class="consent-btn consent-btn--customize">Personnaliser</button>
+        <button type="button" id="consent-save" class="consent-btn consent-btn--accept" style="display:none">Sauvegarder</button>
+        <button type="button" id="consent-reject-all" class="consent-btn consent-btn--reject">Continuer sans accepter</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/consent.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
