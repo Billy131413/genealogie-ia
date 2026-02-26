@@ -75,16 +75,6 @@
         ad_personalization: 'granted',
         ad_user_data: 'granted'
       });
-      /* Charger AdSense si un ID est configuré */
-      var adsenseId = document.documentElement.dataset.adsenseId;
-      if (adsenseId && !document.getElementById('adsense-script')) {
-        var a = document.createElement('script');
-        a.id = 'adsense-script';
-        a.async = true;
-        a.crossOrigin = 'anonymous';
-        a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsenseId;
-        document.head.appendChild(a);
-      }
     }
 
     /* Dispatch un événement custom pour les autres modules */
